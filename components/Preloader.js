@@ -55,7 +55,7 @@ export default function Preloader() {
         </div>
       </div>
 
-      <div className="preloader__title">GoTripee</div>
+      <div className="preloader__title">GoTrip</div>
     </div>
   );
 }

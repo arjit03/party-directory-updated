@@ -120,7 +120,7 @@ export default function CustomersCard() {
                                 <div className="swiper-slide">
                                     <div className="row items-center x-gap-30 y-gap-20">
                                         <div className="col-auto">
-                                            <img src="#" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
+                                            <img src="/img/avatars/1.png" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
                                         </div>
 
                                         <div className="col-auto">
@@ -135,7 +135,7 @@ export default function CustomersCard() {
                                 <div className="swiper-slide">
                                     <div className="row items-center x-gap-30 y-gap-20">
                                         <div className="col-auto">
-                                            <img src="#" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
+                                            <img src="/img/avatars/1.png" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
                                         </div>
 
                                         <div className="col-auto">
@@ -150,7 +150,7 @@ export default function CustomersCard() {
                                 <div className="swiper-slide">
                                     <div className="row items-center x-gap-30 y-gap-20">
                                         <div className="col-auto">
-                                            <img src="#" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
+                                            <img src="/img/avatars/1.png" data-src="/img/avatars/1.png" alt="image" className="js-lazy" />
                                         </div>
 
                                         <div className="col-auto">

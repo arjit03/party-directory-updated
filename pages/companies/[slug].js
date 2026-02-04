@@ -307,7 +307,7 @@ export default function CompanyDetailPage() {
                 </section>
 
                 {/* Company Details Section */}
-                <section className="pt-30">
+                <section className="pt-30 mb-40">
                     <div className="container">
                         <div className="row y-gap-30">
                             <div className="col-xl-8">
@@ -455,6 +455,7 @@ export default function CompanyDetailPage() {
                                             <div className="col-12">
                                                 <div className="form-input">
                                                     <input
+                                                        className="text-black"
                                                         type="text"
                                                         name="name"
                                                         placeholder=" "
@@ -469,6 +470,7 @@ export default function CompanyDetailPage() {
                                             <div className="col-12">
                                                 <div className="form-input">
                                                     <input
+                                                        className="text-black"
                                                         type="email"
                                                         name="email"
                                                         placeholder=" "
@@ -483,6 +485,7 @@ export default function CompanyDetailPage() {
                                             <div className="col-12">
                                                 <div className="form-input">
                                                     <textarea
+                                                        className="text-black"
                                                         name="message"
                                                         placeholder=" "
                                                         value={form.message}

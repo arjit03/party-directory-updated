@@ -58,35 +58,9 @@ export default function Header() {
                     <div className="col-auto">
                         <div className="d-flex items-center">
 
-                            <div className="row x-gap-20 items-center xxl:d-none">
-                                <div className="col-auto">
-                                    <button className="d-flex items-center text-14 text-white" data-x-click="currency">
-                                        <span className="js-currencyMenu-mainTitle">USD</span>
-                                        <i className="icon-chevron-sm-down text-7 ml-10"></i>
-                                    </button>
-                                </div>
-
-                                <div className="col-auto">
-                                    <div className="w-1 h-20 bg-white-20"></div>
-                                </div>
-
-                                <div className="col-auto">
-                                    <button className="d-flex items-center text-14 text-white" data-x-click="lang">
-                                        <img src="/img/general/lang.png" alt="image" className="rounded-full mr-10" />
-                                        <span className="js-language-mainTitle">United Kingdom</span>
-                                        <i className="icon-chevron-sm-down text-7 ml-15"></i>
-                                    </button>
-                                </div>
-                            </div>
-
-
-                            <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
-                                <a href="/login" className="button px-30 fw-400 text-14 -white bg-white h-50 text-dark-1">Become An Expert</a>
-                                <a href="/signup" className="button px-30 fw-400 text-14 border-white -outline-white h-50 text-white ml-20">Sign In / Register</a>
-                            </div>
 
                             <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-white" data-x="header-mobile-icons" data-x-toggle="text-white">
-                                <div><a href="/login" className="d-flex items-center icon-user text-inherit text-22"></a></div>
+
                                 <div><button className="d-flex items-center icon-menu text-inherit text-20" data-x-click="html, header, header-logo, header-mobile-icons, mobile-menu"></button></div>
                             </div>
                         </div>
